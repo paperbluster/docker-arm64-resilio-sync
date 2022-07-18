@@ -20,6 +20,7 @@
     arm64 设备
     docker 程序
     docker-compose python程序
+    可能就这些吧
 
 ## 构建命令
     # 进入目录
@@ -35,5 +36,7 @@ resilio sync 官网：https://www.resilio.com/
 Resilio, Inc. ：https://github.com/bt-sync  
 
 ## 参考
+Install Docker Engine：https://docs.docker.com/engine/install/
+Install Docker Compose：https://docs.docker.com/compose/install/
 sync-docker：https://github.com/bt-sync/sync-docker 
 Overview of Docker Compose：https://docs.docker.com/compose/
