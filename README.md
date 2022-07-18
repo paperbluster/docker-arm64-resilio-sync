@@ -16,9 +16,24 @@
     └── ResilioSyncPro              # 这个是就不做介绍了，自行研究吧，你懂的  
         └── ResilioSyncPro.btskey  
 
+## 依赖
+    arm64 设备
+    docker 程序
+    docker-compose python程序
+
+## 构建命令
+    # 进入目录
+    cd docker-arm64-resilio-sync
+    # 无缓存构建
+    docker-compose build --no-cache
+
+## 构建完成后 后台启动
+    docker-compose up -d
+
 ## 感谢
 resilio sync 官网：https://www.resilio.com/  
 Resilio, Inc. ：https://github.com/bt-sync  
 
 ## 参考
-sync-docker：https://github.com/bt-sync/sync-docker  
+sync-docker：https://github.com/bt-sync/sync-docker 
+Overview of Docker Compose：https://docs.docker.com/compose/
