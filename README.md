@@ -23,6 +23,8 @@
     我目前能想到的必要程序就这些吧
 
 ## 构建命令
+    # clone 项目
+    git clone https://github.com/smallflowercat1995/docker-arm64-resilio-sync.git
     # 进入目录
     cd docker-arm64-resilio-sync
     # 无缓存构建
