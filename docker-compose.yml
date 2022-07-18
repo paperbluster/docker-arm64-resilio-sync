@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  sync-app:
+    build: .
+    image: debian-sync:v1.0
+    container_name: debian-sync-v1.0-container
+    restart: always
+    ports:
+     - "9999:8888"
+     - "55555:55555/tcp"
+     - "55555:55555/udp"  
+    volumes:
+     - ../docker-container/sync/storage:/mnt/sync/storage
+     - ../docker-container/sync/data:/mnt/sync/data
+     - ../docker-container/sync/conf:/mnt/sync/conf
