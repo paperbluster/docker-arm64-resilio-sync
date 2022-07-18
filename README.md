@@ -3,8 +3,8 @@
     这是一个 arm64 的 resilio sync docker 构建材料  
     闲暇之余可以通过树莓派输入资源 key 将资源同步下载  
     由于官网的sync是分布式的所以没什么安全性，不过是个不错的工具  
-    配置文件 docker-compose.yml 默认端口开放是 9999 这个自己可以修改  
-    整个项目不难，看看配置文件，看看脚本，再看看目录结构，看定就理解了
+    配置文件 docker-compose.yml 这个自己可以自定义修改  
+    整个项目不难，看看配置文件，看看脚本，再看看目录结构，肯定就理解了
     .  
     ├── docker-compose.yml          # 这个是 docker-compose.yml 配置文件  
     ├── Dockerfile                  # 这个是 docker 构建文件  
